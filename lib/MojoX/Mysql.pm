@@ -6,7 +6,7 @@ use Mojo::Util qw(dumper);
 use DBI;
 use Carp qw(croak);
 
-our $VERSION  = '0.02';
+our $VERSION  = '0.03';
 
 use MojoX::Mysql::DB;
 use MojoX::Mysql::Result;
@@ -208,7 +208,7 @@ Return L<MojoX::Mysql::DB> object.
 
 =head2 query
 
-	my $collection_object = $mysql->query('SELECT * FROM `names` WHERE id = ?', 1);
+    my $collection_object = $mysql->query('SELECT * FROM `names` WHERE id = ?', 1);
 
     # or
 
@@ -216,7 +216,7 @@ Return L<MojoX::Mysql::DB> object.
 
     # or callback
 
-    $mysql->query('SELECT `text` FROM `test` WHERE `id` = ? LIMIT 1', $insertid, sub{
+    $mysql->query('SELECT `text` FROM `test` WHERE `id` = ? LIMIT 1', $insertid, sub {
         my ($self,$data) = @_;
         say dumper $data;
     });
