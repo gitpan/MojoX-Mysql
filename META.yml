@@ -27,4 +27,4 @@ resources:
   bugtracker: https://github.com/helptasker/MojoX-Mysql/issues
   license: http://opensource.org/licenses/Apache-2.0
   repository: https://github.com/helptasker/MojoX-Mysql
-version: '0.05'
+version: '0.06'
