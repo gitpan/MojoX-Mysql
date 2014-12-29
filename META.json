@@ -3,8 +3,8 @@
    "author" : [
       "Kostya Ten <kostya@cpan.org>"
    ],
-   "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.142690",
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "apache_2_0"
    ],
@@ -52,5 +52,5 @@
          "url" : "https://github.com/helptasker/MojoX-Mysql"
       }
    },
-   "version" : "0.06"
+   "version" : "0.07"
 }
